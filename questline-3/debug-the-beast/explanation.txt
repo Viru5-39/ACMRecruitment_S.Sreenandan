@@ -1,0 +1,8 @@
+The original code for finding the second largest number had two problems. 
+First, it set both largest and second to -9999999. This works for many cases, but it fails when the input numbers are smaller since the algorithm won’t update correctly. 
+Second, the condition elif num > second did not check if num was equal to the current largest. 
+This meant that if the largest number appeared more than once, the code could wrongly identify it as the second largest.
+
+The revised version uses float('-inf') to represent “smaller than anything,” making sure that any real number will replace it. 
+It also adds a num != largest check to prevent duplicates of the maximum from replacing the second largest. 
+Finally, it returns None when there aren’t enough unique elements to determine a second largest number.
