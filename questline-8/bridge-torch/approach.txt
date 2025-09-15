@@ -1,0 +1,21 @@
+Optimal Crossing Plan
+
+Here is the step-by-step sequence to get everyone across in the shortest time. The people are identified by how long they take to cross (1, 2, 7, and 10).
+
+    1 and 2 cross together (2 minutes).
+
+    1 comes back with the torch (1 minute).
+
+    7 and 10 cross together (10 minutes).
+
+    2 comes back with the torch (2 minutes).
+
+    1 and 2 cross together one last time (2 minutes).
+
+Total Time = 2+1+10+2+2=17 minutes.
+
+The Logic Behind It
+
+The trick to solving this puzzle is to minimize the time the two slowest people (7 and 10) waste. A common idea is to have the fastest person (1) act as a shuttle for everyone.
+The best strategy is to get the two slowest people across the bridge at the same time. While this takes a long 10-minute trip, it's much faster than having them cross separately. 
+The first few moves are just a clever setup to get the torch in the right place for the slowest pair to make their journey together. This one strategic move saves a lot of time in the long run.
