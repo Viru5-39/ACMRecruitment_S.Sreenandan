@@ -1,4 +1,5 @@
 #Iterative method
+
 In this method, we "iterate" or "traverse" through each character in a string with a loop. It is done in the following manner:
 
 Start with an empty string.
@@ -7,6 +8,7 @@ Instead of appending each character at the end, place it in front of the result 
 By the end of the loop, the result string contains the characters in reverse order.
 
 #Recursive method
+
 In this method, the function calls itself repeatedly to reach the base case. It works like:
 
 Define a base case: if the string length is 0 or 1, just return it (already reversed).
