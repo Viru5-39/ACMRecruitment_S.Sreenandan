@@ -1,11 +1,9 @@
 Wolf, Goat, and Cabbage River Crossing Solution
 
-1.Take the Goat across. The farmer first rows the goat to the destination side.
+1.Take the wolf across. The farmer first rows the wolf to the destination side.
 2.Return alone. The farmer rows back empty-handed.
-3.Take the Wolf across. The farmer brings the wolf to the destination side.
-4.Return with the Goat. To prevent disaster, the farmer brings the goat back to the starting side.
-5.Take the Cabbage across. The farmer leaves the goat and rows the cabbage to the destination side, leaving it with the wolf.
-6.Return alone. The farmer rows back empty-handed one last time.
-7.Take the Goat across. The farmer makes the final trip with the goat.
+3.Take the cabbage across. The farmer brings the cabbage to the destination side, leaving wolf and cabbage together at the destination side.
+4.Return alone. The farmer rows back empty handed.
+5.Take the Goat across. The farmer makes the final trip with the Goat.
 
 Everyone finally crosses the river safely
